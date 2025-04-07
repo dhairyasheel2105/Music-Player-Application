@@ -1,0 +1,28 @@
+.music-list {
+  margin-bottom: 30px;
+  
+  .list-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .no-songs {
+    padding: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+  }
+  
+  .music-item {
+    animation: fadeIn 0.3s ease-in-out;
+    animation-fill-mode: both;
+  }
+  
+  @for $i from 1 through 20 {
+    .music-item:nth-child(#{$i}) {
+      animation-delay: #{$i * 0.05}s;
+    }
+  }
+}

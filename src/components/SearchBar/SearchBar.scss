@@ -1,0 +1,26 @@
+.search-bar {
+  margin-bottom: 20px;
+  max-width: 300px;
+  
+  .search-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+    
+    &:focus {
+      background-color: rgba(255, 255, 255, 0.2);
+      box-shadow: none;
+      color: white;
+    }
+  }
+  
+  .search-icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

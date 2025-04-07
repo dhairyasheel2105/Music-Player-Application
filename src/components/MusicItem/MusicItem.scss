@@ -1,0 +1,130 @@
+.music-item {
+  padding: 10px 0;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    .play-icon {
+      opacity: 1;
+    }
+  }
+  
+  &.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    
+    .song-title {
+      color: #1DB954;
+    }
+  }
+  
+  .play-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .play-button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .play-icon {
+    font-size: 14px;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+  }
+  
+  .thumbnail {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .song-info {
+    padding-left: 10px;
+    
+    .song-title {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    
+    .artist-name {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  .duration {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: right;
+  }
+  
+  .options-dropdown {
+    display: inline-block;
+    position: relative;
+    
+    .dropdown-toggle {
+      color: rgba(255, 255, 255, 0.7);
+      background: none;
+      border: none;
+      padding: 5px;
+      position: relative;
+      z-index: 5;
+      
+      &::after {
+        display: none;
+      }
+      
+      &:hover, &:focus {
+        color: white;
+      }
+    }
+    
+    .dropdown-menu {
+      background-color: #282828;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      z-index: 1050; 
+      position: absolute;
+      
+      .dropdown-item {
+        color: white;
+        font-size: 14px;
+        padding: 10px 15px;
+        
+        &:hover {
+          background-color: #333;
+        }
+        
+        &.favorited {
+          color: #1DB954;
+          
+          svg {
+            color: #1DB954;
+          }
+        }
+        
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
