@@ -2,6 +2,11 @@
 
 A modern, responsive music player web application built with React that offers a seamless music listening experience with dynamic UI elements and personalized features.
 
+## Live Demo
+
+👉 [Check out the live app here](https://musicplayer-application.netlify.app/)
+
+
 ## Features
 
 - **Dynamic Background**: Background color adapts to the album art of the currently playing song  
