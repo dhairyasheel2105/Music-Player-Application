@@ -137,7 +137,7 @@ Thank you for reviewing my submission. I look forward to your feedback!
  **For You Page**
    - The "For You" page provides personalized music recommendations based on your listening habits. It showcases a curated selection of songs that match your taste, featuring new releases and trending tracks that align with your preferences.
    
- ![App Screenshot](screenshots/for_you.jpeg)
+ ![App Screenshot](screenshots/for_you.png)
 
  ---
 
@@ -146,7 +146,7 @@ Thank you for reviewing my submission. I look forward to your feedback!
 - The "Top Tracks" page displays the most popular songs in your music library. These tracks are ranked based on play count or other metrics, giving you quick access to the hottest and most listened-to music in the collection.
 
  
-![App Screenshot](screenshots/top_tracks.jpeg)
+![App Screenshot](screenshots/top_tracks.png)
 
 ---
 
@@ -155,7 +155,7 @@ Thank you for reviewing my submission. I look forward to your feedback!
 - The "Favorites" page shows all the songs you've marked as favorites by clicking the heart icon. This creates your personal collection of preferred tracks that you can easily access without searching through the entire library.
 
  
-![App Screenshot](screenshots/favorites.jpeg)
+![App Screenshot](screenshots/favorites.png)
 
 ---
 
@@ -164,6 +164,6 @@ Thank you for reviewing my submission. I look forward to your feedback!
 - The "Recently Played" page keeps track of your listening history, showing the songs you've played most recently in chronological order. This makes it easy to revisit tracks you enjoyed recently without having to search for them again.
 
  
-![App Screenshot](screenshots/recently_played.jpeg)
+![App Screenshot](screenshots/recently_played.png)
 
 ---
